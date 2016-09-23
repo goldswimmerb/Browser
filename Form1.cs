@@ -27,7 +27,7 @@ namespace Browser
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-            
+
         {
             MessageBox.Show("This is a Simple Web Broser based on the IE rendering engine, Made by Brandon", "About");
         }
@@ -63,7 +63,14 @@ namespace Browser
         private void NavigateToPage()
         {
             toolStripStatusLabel1.Text = "Navigation Has Started";
-            webBrowser1.Navigate(textBox1.Text);
+            try
+            {
+                webBrowser1.Navigate(textBox1.Text);
+            }
+            catch (System.UriFormatException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         /// <summary>
         /// Fires every keypress
@@ -91,6 +98,21 @@ namespace Browser
             {
                 toolStripProgressBar1.ProgressBar.Value = (int)(e.CurrentProgress * 100 / e.MaximumProgress);
             }
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webBrowser1.ShowPrintDialog();
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webBrowser1.ShowSaveAsDialog();
+        }
+
+        private void printPreviewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webBrowser1.ShowPrintPreviewDialog();
         }
     }
 }
