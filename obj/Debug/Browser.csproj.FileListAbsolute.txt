@@ -7,3 +7,12 @@ C:\Users\Brando\Documents\GitHub\Browser\obj\Debug\Browser.Properties.Resources.
 C:\Users\Brando\Documents\GitHub\Browser\obj\Debug\Browser.csproj.GenerateResource.Cache
 C:\Users\Brando\Documents\GitHub\Browser\obj\Debug\Browser.exe
 C:\Users\Brando\Documents\GitHub\Browser\obj\Debug\Browser.pdb
+C:\Users\Administrator\Desktop\Browser-master\bin\Debug\Browser.exe.config
+C:\Users\Administrator\Desktop\Browser-master\obj\Debug\Browser.exe
+C:\Users\Administrator\Desktop\Browser-master\obj\Debug\Browser.pdb
+C:\Users\Administrator\Desktop\Browser-master\bin\Debug\Browser.exe
+C:\Users\Administrator\Desktop\Browser-master\bin\Debug\Browser.pdb
+C:\Users\Administrator\Desktop\Browser-master\obj\Debug\Browser.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Browser-master\obj\Debug\Browser.Form1.resources
+C:\Users\Administrator\Desktop\Browser-master\obj\Debug\Browser.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Browser-master\obj\Debug\Browser.csproj.GenerateResource.Cache
